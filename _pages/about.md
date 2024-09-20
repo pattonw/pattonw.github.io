@@ -1,19 +1,28 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Who am I?"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Education and Work
+==================
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My path has been fairly simple. I got two undergraduate degrees in [Mathematics](https://catalog.vt.edu/undergraduate/college-science/mathematics/mathematics-bs-applied-discrete-mathematics/) and [Computational Modeling and Data Analytics](https://data.science.vt.edu/programs/cmda.html). I wen't straight from undergrad to working at the [Janelia Research Campus](https://www.janelia.org/). I worked at Janelia for 3 years with the [cardona lab](https://www.janelia.org/our-research/former-labs/cardona-lab), [funke lab](https://www.janelia.org/lab/funke-lab), [mouselight project team](https://www.janelia.org/project-team/mouselight), and [scicomp](https://www.janelia.org/support-team/scientific-computing-software) until I moved to Seattle in the summer of 2021. For reasons relating to the need for remote work I switched to a contractor setup and have since continued working with Janelia, specifically the [cellmap](https://www.janelia.org/project-team/cellmap) as well as a few other labs and companies including [e11](https://e11.bio/), Uri Manor at [the salk](https://www.salk.edu/) and [Kate McDole at Cambridge](https://www2.mrc-lmb.cam.ac.uk/group-leaders/h-to-m/kate-mcdole/)
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Most of my work has been in running machine learning projects for large scale image processing in massive 3D volumes of neurons and other cell types throughout tissue samples ranging from drosophila neural tissue to mouse liver, kidney, and heart. I have worked with a wide variety of microscopy data from many different microscope setups such as cryo-em, fib-sem, lightsheet, confocal, and spinning disk. 
+
+My Interests
+============
+
+I am very interested in the intersection of software engineering and scientific computing. I have quite a few libraries that I have contributed to and/or maintain related to the field of large scale segmentation.
+1. [gunpowder](https://github.com/funkelab/gunpowder), a package that helps build data processing pipelines in a compute graph structure. This package is extremely helpful for generating training data for volumetric image processing models.
+1. [daisy](https://github.com/funkelab/daisy), a tool for blockwise parallelized processing of large volumes with robust logging and error handling. It has some very neat tools for handling the parallelization of tasks that have complicated block boundary interactions.
+1. [funlib.*](https://github.com/orgs/funkelab/repositories?q=funlib), a collection of packages containing helpful generalized solutions for simple tasks such as creating and opening datasets with the appropriate metadata, querying our data with appropriate units, and visualization code with [neuroglancer](https://github.com/google/neuroglancer).
+1. [dacapo](https://github.com/janelia-cellmap/dacapo), a framework designed to help manage configure and apply top machine learning methods on volumetric microscopy data. Used extensively by the [openorganelle](https://www.openorganelle.org/) project to manage the hundreds of networks we trained for various organelles and datasets.
+1. [mwatershed](https://github.com/pattonw/mwatershed), a rust implementation of [mutex watershed](https://arxiv.org/abs/1904.12654) that is easily pip installable.
 
 Getting started
 ======
