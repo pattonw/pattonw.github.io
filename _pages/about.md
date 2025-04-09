@@ -10,12 +10,19 @@ redirect_from:
 Education and Work
 ==================
 
-My path has been fairly simple. I got two undergraduate degrees in [Mathematics](https://catalog.vt.edu/undergraduate/college-science/mathematics/mathematics-bs-applied-discrete-mathematics/) and [Computational Modeling and Data Analytics](https://data.science.vt.edu/programs/cmda.html). I wen't straight from undergrad to working at the [Janelia Research Campus](https://www.janelia.org/). I worked at Janelia for 3 years with the [cardona lab](https://www.janelia.org/our-research/former-labs/cardona-lab), [funke lab](https://www.janelia.org/lab/funke-lab), [mouselight project team](https://www.janelia.org/project-team/mouselight), and [scicomp](https://www.janelia.org/support-team/scientific-computing-software) until I moved to Seattle in the summer of 2021. For reasons relating to the need for remote work I switched to a contractor setup and have since continued working with Janelia, specifically the [cellmap](https://www.janelia.org/project-team/cellmap) as well as a few other labs and companies including [e11](https://e11.bio/), Uri Manor at [the salk](https://www.salk.edu/) and [Kate McDole at Cambridge](https://www2.mrc-lmb.cam.ac.uk/group-leaders/h-to-m/kate-mcdole/)
+Undergrad:
+Virginia Tech:
+1. [Mathematics](https://catalog.vt.edu/undergraduate/college-science/mathematics/mathematics-bs-applied-discrete-mathematics/)
+2. [Computational Modeling and Data Analytics](https://data.science.vt.edu/programs/cmda.html).
+
+Work:
+2018-2021: Software engineer with an emphasis on machine learning and computer vision in 3D microscopy at [Janelia Research Campus](https://www.janelia.org/). I worked with the [cardona lab](https://www.janelia.org/our-research/former-labs/cardona-lab), [funke lab](https://www.janelia.org/lab/funke-lab), [mouselight project team](https://www.janelia.org/project-team/mouselight), and [scicomp](https://www.janelia.org/support-team/scientific-computing-software).
+2021-present: Machine Learning Consultant. I continued to work with teams at Janelia: [cellmap](https://www.janelia.org/project-team/cellmap) as well as a few other labs and companies including [e11](https://e11.bio/), Uri Manor at [the salk](https://www.salk.edu/) and [Kate McDole at Cambridge](https://www2.mrc-lmb.cam.ac.uk/group-leaders/h-to-m/kate-mcdole/)
 
 Most of my work has been in running machine learning projects for large scale image processing in massive 3D volumes of neurons and other cell types throughout tissue samples ranging from drosophila neural tissue to mouse liver, kidney, and heart. I have worked with a wide variety of microscopy data from many different microscope setups such as cryo-em, fib-sem, lightsheet, confocal, and spinning disk. 
 
-My Interests
-============
+Code
+====
 
 I am very interested in the intersection of software engineering and scientific computing. I have quite a few libraries that I have contributed to and/or maintain related to the field of large scale segmentation.
 1. [gunpowder](https://github.com/funkelab/gunpowder), a package that helps build data processing pipelines in a compute graph structure. This package is extremely helpful for generating training data for volumetric image processing models.
