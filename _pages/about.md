@@ -16,7 +16,9 @@ Virginia Tech:
 2. [Computational Modeling and Data Analytics](https://data.science.vt.edu/programs/cmda.html).
 
 Work:
+
 2018-2021: Software engineer with an emphasis on machine learning and computer vision in 3D microscopy at [Janelia Research Campus](https://www.janelia.org/). I worked with the [cardona lab](https://www.janelia.org/our-research/former-labs/cardona-lab), [funke lab](https://www.janelia.org/lab/funke-lab), [mouselight project team](https://www.janelia.org/project-team/mouselight), and [scicomp](https://www.janelia.org/support-team/scientific-computing-software).
+
 2021-present: Machine Learning Consultant. I continued to work with teams at Janelia: [cellmap](https://www.janelia.org/project-team/cellmap) as well as a few other labs and companies including [E11 BIO](https://e11.bio/), Uri Manor at the [salk](https://www.salk.edu/) and [Kate McDole](https://www2.mrc-lmb.cam.ac.uk/group-leaders/h-to-m/kate-mcdole/) at Cambridge
 
 Most of my work has been in running machine learning projects for large scale image processing in massive 3D volumes of neurons and other cell types throughout tissue samples ranging from drosophila neural tissue to mouse liver, kidney, and heart. I have worked with a wide variety of microscopy data from many different microscope setups such as cryo-em, fib-sem, lightsheet, confocal, and spinning disk. 
